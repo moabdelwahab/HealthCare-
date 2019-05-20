@@ -12,7 +12,9 @@ export class LoginComponent implements OnInit {
   constructor(private UserService:UserService) { }
 
   ngOnInit() {
+    console.log("hellow world!");
   }
+
 
   onUserLogin(form:NgForm)
   {
